@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой любимый сайт</title>
+</head>
+<style>
+    .table_flex {
+        height: 400px;
+
+        border: 1px solid black;
+        margin-bottom: 30px;
+        /* display: flex; */
+        /* flex-direction: column;
+        flex-wrap: wrap; */
+
+    }
+
+    .col {
+        background: wheat;
+        border: 1px solid black;
+        /* width: 25%; */
+    }
+    .row {
+        border: 1px solid black;
+        
+    }
+    .row_flex {
+        flex-wrap: wrap;
+
+        border: 1px solid black;
+        display: flex;   
+    }
+</style>
+
+<body>
+    <div class="table_flex">
+        <div class="row_flex">
+            <div class="col">Тело столбцаdasdsdadas </div>
+            <div class="col">Тело столбцаdasdsdadas </div>
+            <div class="col">Тело столбцаdasdsdadas </div>
+            <div class="col">Тело столбца </div>
+        </div>
+        <div class="row_flex">
+            <div class="col">Тело столбцаdasdsdadas </div>
+            <div class="col">Тело столбцаdasdsdadas </div>
+            <div class="col">Тело столбцаdasdsdadas </div>
+            <div class="col">Тело столбца </div>
+        </div>
+        <div class="row_flex">
+            <div class="col">Тело столбцаdasdsdadas </div>
+            <div class="col">Тело столбцаdasdsdadas </div>
+            <div class="col">Тело столбцаdasdsdadas </div>
+            <div class="col">Тело столбца </div>
+        </div>
+    </div>
+    <table class="row">
+        <tr class="row">
+            <th class="row">Company</th>
+            <th class="row">Contact</th>
+            <th class="row">Country</th>
+        </tr>
+        <tr class="row">
+            <td class="row" >Alfreds Futterkisteadasdasdasadasdasdasdasdasdasdadasdasdasdasd</td>
+            <td class="row">Maria Anders</td>
+            <td class="row">Germany</td>
+        </tr>
+        <tr class="row">
+            <td class="row">Centro comercial Moctezuma</td>
+            <td class="row">Francisco Chang</td>
+            <td class="row">Mexico</td>
+        </tr>
+    </table>
+</body>
+
+</html>
